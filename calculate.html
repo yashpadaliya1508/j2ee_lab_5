@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <form action="Calculate.jsp" method="post">
+        <label for="num1">Number 1:</label>
+        <input type="number" name="num1" id="num1"><br><br>
+
+        <label for="num2">Number 2:</label>
+        <input type="number" name="num2" id="num2"><br><br>
+
+        <label for="operation">Operations:</label><br>
+        <input type="radio" name="operation" id="add" value="add"> Addition<br>
+        <input type="radio" name="operation" id="sub" value="sub"> Subtraction<br>
+        <input type="radio" name="operation" id="mul" value="mul"> Multiplication<br>
+        <input type="radio" name="operation" id="div" value="div"> Division<br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
